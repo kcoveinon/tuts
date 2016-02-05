@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', ["as" => "about", "uses" => "AboutController@about"]);
+
+Route::get('about-two', function () {
+	return view('main.about');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
