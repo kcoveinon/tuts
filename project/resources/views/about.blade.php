@@ -1,6 +1,8 @@
 @extends('layout')
 
+
+
 @section('content')
 
-    <h1>WELCOME</h1>
+	<h1>ABout</h1>
 @stop
